@@ -1,3 +1,0 @@
-RevoUninstaller.RevoUninstaller*
-Minitool.PartitionWizard*
-Auslogics.DiskDefrag*

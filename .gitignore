@@ -1,87 +1,18 @@
-.android/
-.bash_history
-.cache/
-.conf.git/
-.config/scoop/
-.git/
-.gnupg/
-.lesshst
-.obs32/*.Metrics
-.p4merge/
-.ssh/
-.viminfo
-.vscode-insiders/
-.vscode/*
-.vscode/extensions/*
-!.vscode/extensions/windows-used-extensions.json
-!.vscode/extensions/linux-used-extensions.json
-.wsl*
-.zenmap/*
-!.zenmap/zenmap.conf
-!.zenmap/saved_scans
-!.zenmap/saved_scans/*
-3D Objects/
-AppData/*
-Application Data/
-Books/
-CaseSens/
-Contacts/
-Cookies/
-DL/
-Desktop/
-Doc/
-Docs/
-Docs_sym/
-Documents/*
-!Documents/PowerShell
-!Documents/PowerShell/*
-Documents/PowerShell/powershell.config.json
-Documents/PowerShell/Help/
-Documents/Powershell/Modules/*
-Documents/Powershell/Scripts/*
-!Documents/WindowsPowerShell/
-Downloads/
-Dropbox/
-FastCopy/
-Favorites/
-IntelGraphicsProfiles/
-Links/
-Local Settings/
-Mus/
-Music/
-My Documents/
-NTUSER*
-NetHood/
-OneDrive/
-Pics/
-Pictures/
-Portables/
-PrintHood/
-Recent/
-Recorded Calls/
-Saved Games/
-Searches/
-SendTo/
-Start Menu/
-Templates/
-Tracing/
-Videos/
-Vids/
-Virtual Machines/
-_viminfo
-bz*
-certs/
-config*
-git/
-navdb.csv
-ntuser*
-scoop/
-terminal-config-backup.json
-test*
-vscode-remote-wsl/
+# System Files
+Thumbs.db
+desktop.ini
+
+# Logs and Editor Backups
 *.log
 *~
-VulkanSDK/
-.arduinoIDE/*
-.wslconfig
-CrossDevice/
+*.bak
+*.tmp
+
+# IDE Context (VS Code / Antigravity)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.antigravity/
+
+# PowerShell Specific State
+*.clixml
