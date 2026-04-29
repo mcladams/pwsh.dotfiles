@@ -1,5 +1,0 @@
-﻿https://www.google.com/search?q=lxrunoffline&rlz=1C1GCEA_enAU982AU982&oq=lxrunoffline&aqs=chrome..69i57j0i271l3j69i60.2506j0j7&sourceid=chrome&ie=UTF-8 | lxrunoffline - Google Search
-https://github.com/DDoSolitary/LxRunOffline | GitHub - DDoSolitary/LxRunOffline: A full-featured utility for managing Windows Subsystem for Linux (WSL)
-https://www.google.com/search?q=powershell+scoop&rlz=1C1GCEA_enAU982AU982&oq=powershell+scoop&aqs=chrome.0.69i59l2.3473j0j7&sourceid=chrome&ie=UTF-8 | powershell scoop - Google Search
-https://scoop.sh/ | Scoop
-https://github.com/ScoopInstaller/Scoop | GitHub - ScoopInstaller/Scoop: A command-line installer for Windows.
