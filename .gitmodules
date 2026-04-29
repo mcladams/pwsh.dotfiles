@@ -1,9 +1,0 @@
-#[submodule "git/deb-dotconf"]
-#	path = git/deb-dotconf
-#	url = https://github.com/mcladams/deb-dotconf
-#[submodule "git/zfs-on-wsl"]
-#	path = git/zfs-on-wsl
-#	url = https://github.com/mcladams/deb-dotconf
-#[submodule "git/zfs-bash-utils"]
-#	path = git/zfs-bash-utils
-#	url = https://github.com/mcladams/deb-dotconf
