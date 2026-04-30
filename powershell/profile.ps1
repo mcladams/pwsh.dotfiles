@@ -8,6 +8,8 @@ function la { Get-ChildItem -Force @args | Sort-Object -Property PSIsContainer, 
 # Editor preference
 $env:EDITOR = "notepad++"
 
+Set-Alias -Name "npp" -Value "notepad++.exe"
+
 # Load utility functions
 $fn = "$HOME\.dotfiles\powershell\functions.ps1"
 if (Test-Path $fn) { . $fn }

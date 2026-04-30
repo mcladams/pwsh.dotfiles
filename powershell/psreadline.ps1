@@ -11,7 +11,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 # Key bindings
 Set-PSReadLineKeyHandler -Key RightArrow -Function AcceptSuggestion
 Set-PSReadLineKeyHandler -Key Tab        -Function MenuComplete
-Set-PSReadLineKeyHandler -Key Shift+Tab  -Function ReverseMenuComplete
+Set-PSReadLineKeyHandler -Key Shift+Tab  -Function TabCompletePrevious
 
 # Prefix-based history search (Up/Down)
 Set-PSReadLineKeyHandler -Key UpArrow   -Function HistorySearchBackward
