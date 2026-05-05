@@ -20,7 +20,7 @@ if (Test-Path $psrl) { . $psrl }
 
 # Initialize oh-my-posh if available; fallback to default theme if custom theme missing
 if (Get-Command oh-my-posh -ErrorAction SilentlyContinue) {
-    $ThemePath = "$HOME\.dotfiles\powershell\kali.omp.json"
+    $ThemePath = "$HOME\.dotfiles\powershell\half-life.omp.json"
     if (Test-Path $ThemePath) {
         oh-my-posh init pwsh --config $ThemePath | Invoke-Expression
     } else {
