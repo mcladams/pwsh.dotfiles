@@ -2,7 +2,9 @@
 # PSReadLine configuration: git predictor, prefix history search, ListView by default, right-arrow accept.
 
 # Use history + plugin predictors (CompletionPredictor provides git-aware suggestions)
-Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+# powershell 5 cant use plugi
+if ($PSEdition -eq "Desktop") { Set-PSReadLineOption -PredictionSource History }
+else { Set-PSReadLineOption -PredictionSource HistoryAndPlugin }
 
 # Default view: ListView (drop-down). To use inline ghost text, comment the next line and uncomment the InlineView line.
 Set-PSReadLineOption -PredictionViewStyle ListView
