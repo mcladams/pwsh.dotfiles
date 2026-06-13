@@ -7,6 +7,12 @@ function Update-Profile {
 }
 Set-Alias -Name reload-profile -Value Update-Profile
 
-function which {
-    Get-Command @args
+# This not required as which provided from scoop package either busybox / gow / coreutils
+# function which {
+#    Get-Command @args
+# }
+
+function gemini-cli {
+    node "C:\Users\Mike\source\repos\mcladams\kali-gemini-cli\scripts\start.js" @args
 }
+Set-Alias -Name gemini -Value gemini-cli
